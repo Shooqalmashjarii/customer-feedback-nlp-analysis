@@ -53,7 +53,7 @@ Accuracy Evaluation + VADER Inspection
 
 ```
 nlp-sentiment-analysis/
-├── task3.ipynb            # Full pipeline notebook
+├── nlp_text_classification.ipynb   # Full pipeline notebook
 ├── feedback_dataset.csv   # Labelled customer feedback dataset
 └── README.md
 ```
@@ -64,7 +64,7 @@ nlp-sentiment-analysis/
 
 ```bash
 pip install pandas numpy nltk scikit-learn tensorflow
-jupyter notebook task3.ipynb
+jupyter notebook nlp_text_classification.ipynb
 ```
 
 Dataset requires two columns: `cleaned` (preprocessed text) and `label` (0 or 1).
